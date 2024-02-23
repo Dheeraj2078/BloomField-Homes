@@ -6,9 +6,6 @@
   .tag {
     padding: 0.8rem 2rem;
   }
-  .title-caption {
-    font-size: 1.5rem;
-  }
 }
 
 @media (max-width: 1030px) {
@@ -35,9 +32,6 @@
   }
   .nav-middle {
     padding: 1.2rem 3rem;
-  }
-  .title-caption {
-    left: 23rem;
   }
 }
 
@@ -132,9 +126,6 @@
   .title-image {
     height: 6rem;
   }
-  .title-caption {
-    left: 20rem;
-  }
 
   .have-questions {
     margin-left: 10rem;
@@ -210,5 +201,15 @@
 
   .card {
     width: 80%;
+  }
+}
+
+@media (max-width: 390px) {
+  .membership-card {
+    width: 80%;
+  }
+
+  .card {
+    width: 90%;
   }
 }

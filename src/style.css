@@ -42,14 +42,6 @@
   height: 7rem;
 }
 
-.title-caption {
-  position: absolute;
-  bottom: 2rem;
-  left: 25rem;
-  font-size: 2rem;
-  color: #447e77;
-}
-
 .have-questions {
   background-color: #76ab5b;
   display: flex;
@@ -119,7 +111,6 @@
 *********************/
 .hero-image {
   width: 100%;
-  /* height: 50%; */
   margin-bottom: 8.5rem;
 }
 
@@ -182,7 +173,7 @@
 * TAGGING
 *********************/
 .section-tagging {
-  background-color: #e6e6fa;
+  background-color: #f6f6fd;
   text-align: center;
   padding: 3rem;
 }
@@ -253,6 +244,7 @@
 .section-services {
   background-color: #f2f2f2;
   padding-top: 2rem;
+  border-top-right-radius: 100rem;
 }
 
 .services-container {
@@ -269,6 +261,7 @@
 
   border-bottom: 5px solid;
   border-image-slice: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .services-heading {
@@ -348,7 +341,7 @@
 *********************/
 
 .section-membership {
-  background-color: #e6e6fa;
+  background-color: #f5f8fe;
 }
 
 .membership-cards {
@@ -445,7 +438,7 @@
 
 .footer-section {
   font-size: 1.6rem;
-  background-color: #af9146;
+  background-color: #c6c09c;
 }
 
 .footer-nav {
